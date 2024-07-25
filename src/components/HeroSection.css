@@ -1,0 +1,18 @@
+.topNav{
+    background-image: 'url("../assets/HeroSection.jpeg")'; 
+    height: '100vh'; 
+    overflow:"hidden";
+    background-repeat: 'no-repeat'; 
+    background-position: "top"; 
+    background-size: "cover";
+    position:"relative";
+}
+.transparentBackground {
+    background-image: 'url("../assets/transparent.jpg")';
+    height: '100vh'; 
+    overflow:"hidden"; 
+    background-repeat: 'no-repeat'; 
+    background-position: "top"; 
+    background-size: "cover"; 
+    position: "absolute"
+}
