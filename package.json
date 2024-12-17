@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://iam-ebuka.github.io/LosAngelisMountain-interview",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
