@@ -6,7 +6,6 @@ import Mountain2 from "./Mountain2";
 import MOUT1 from "./MOUT1";
 import MOUT2 from "./MOUT2";
 import { colorss } from "../constants";
-import "../App.css"
 
 const tabs=["MOUNTAIN 1", "MOUNTAIN 2"]
 const ThirdSection = () => {
