@@ -2,7 +2,6 @@ import './HeroSection.css'
 import heroImage from '../assets/HeroSection.jpeg'
 import stars from "../assets/plentyStars.jpeg"
 import { colorss } from '../constants';
-import tryImage from "../assets/letsTry.png"
 
 const HeroSection = () => {
     const hStyle = {

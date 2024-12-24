@@ -6,6 +6,7 @@ import Mountain2 from "./Mountain2";
 import MOUT1 from "./MOUT1";
 import MOUT2 from "./MOUT2";
 import { colorss } from "../constants";
+import "../App.css"
 
 const tabs=["MOUNTAIN 1", "MOUNTAIN 2"]
 const ThirdSection = () => {
@@ -23,28 +24,27 @@ const ThirdSection = () => {
                 return "error"; 
         }
     };
-    const styleText = {
-        fontFamily: '"Oswald", sans-serif',
-        fontOpticalSizing: 'auto', 
-        fontWeight: 700,
-        fontStyle: 'normal',
-        color: colorss.Gray
-      }
-      const styleTextt = {
-        fontFamily: '"Oswald", sans-serif',
-        fontOpticalSizing: 'auto', 
-        fontWeight: 700,
-        fontStyle: 'normal',
-        color:colorss.blueish
-      }
+
 
   
   return (
     <div className="">
         <div className="flex flex-col md:items-center md:justify-center md:gap-[60px] md:px-[100px] lg:px-[300px] md:flex-row py-[10px]">
             <div className="relative ml-[40px] md:ml-0">
-                <h2 style={styleText} className="text-[80px]">02.</h2>
-                <p style={styleTextt} className="text-[15px] font-bold absolute top-[60px] left-[88px]">CLIMB</p>
+                <h2 style={{
+        fontFamily: '"Oswald", sans-serif',
+        fontOpticalSizing: 'auto', 
+        fontWeight: 700,
+        fontStyle: 'normal',
+        color: colorss.Gray
+      }} className="styleText text-[80px]">02.</h2>
+                <p style={{
+        fontFamily: '"Oswald", sans-serif',
+        fontOpticalSizing: 'auto', 
+        fontWeight: 700,
+        fontStyle: 'normal',
+        color:colorss.blueish
+      }} className="text-[15px] font-bold absolute top-[60px] left-[88px]">CLIMB</p>
             </div>
             <div className="px-[30px] md:px-0 ]">
                 <p style={{fontFamily:"Lato, sans-serif", fontWeight: "300"}}>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </p>
